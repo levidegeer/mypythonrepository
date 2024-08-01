@@ -1,0 +1,18 @@
+operation = input("What operation do you want to complete: add , subtract , multiply , divide ?: ")
+number1 = int(input("What is your first number?: "))
+number2 = int(input("What is your second number?: "))
+
+if operation == "add":
+    x = number1 + number2
+    print("The result is " + str(x))
+elif operation == "subtract":
+    x = number1 - number2
+    print("The result is " + str(x))
+elif operation == "multiply":
+    x = number1 * number2
+    print("The result is " + str(x))
+elif operation == "divide":
+    x = number1 / number2
+    print("The result is " + str(x))
+else:
+    print("Error wrong syntax")
