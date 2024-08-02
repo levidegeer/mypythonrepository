@@ -1,0 +1,13 @@
+# User input
+amount = float(input("How much money do you want to save in a year?: "))
+
+# Performs calculation
+monthly = amount / 12
+weekly = amount / 52
+daily = amount / 365
+
+# Prints the result
+print("In order to save " + str(amount) + " in one year. You need to save:")
+print(str(round(monthly, 2)) + " Monthly")
+print(str(round(weekly, 2)) + " Weekly")
+print(str(round(daily, 2)) + " Daily")
