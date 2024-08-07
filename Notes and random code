@@ -915,3 +915,9 @@
 #     else:
 #         print("Not a leap year.")
 # leap(year)
+
+# radius = int(input("What is the radius? "))
+# def area(value):
+#     area = 3.14159 * value * value
+#     print(round(area, 1))
+# area(radius)
