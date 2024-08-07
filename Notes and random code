@@ -1,0 +1,917 @@
+# name = input("What is your name?: ")
+# number = int(input("Number = "))
+
+# print(name * number)
+
+# word1 = "apple"
+# word2 = "tree"
+# word3 = "There"
+
+# variable = word3 + " is a " + word1 + " " + word2
+# print(variable)
+
+# name = input("What is your name?: ")
+# age = input("How old are you?: ")
+# birthday = input("When is your birthday?: ")
+
+# print("Hi " + name + "! You are " + age + " years old and you were born on " + birthday + ".")
+
+# number1 = input()
+# number2 = input()
+
+# print(number1 + number2)
+
+
+# animal = input()
+# place = input()
+# pluralNoun = input()
+# adjective = input()
+
+# print("Today I rode a " + animal + " to the " + place + " to buy some " + pluralNoun + ". It was " + adjective + ".")
+
+
+# nerds = input()
+# butterfingers = input()
+
+# total = int(snickers) + int(nerds) + int(butterfingers)
+
+# print("This year, you got " + str(snickers) + " snickers, " + str(nerds) + " nerds, and " + str(butterfingers) + " butterfingers. The total number of these candies is " + str(total) + " candies.")
+
+
+# recipient = input("Who is the message for?")
+
+# place = input("Where do you want to meet?")
+
+# minutes = input("In how many minutes would you like to meet?")
+
+# print("I have an important message for " + recipient + ". Meet me at the " + place + " in " + minutes + " minutes. From, Detective Buggy.")
+
+
+# a = int(input("What is the first number?: "))
+# b = int(input("What is the second number?: "))
+
+# x = a + b
+# print(x)
+
+
+# a = int(input("What is the your number?: "))
+
+# x = a + 1
+# y = a - 1 
+# print(str(y) + "," + str(x))
+
+
+# a = int(input("What is the first number?: "))
+# b = int(input("What is the second number?: "))
+
+# x = a * b
+# print(x)
+
+
+# a = int(input("What is the your number?: "))
+
+# x = 48682.76 / a
+
+# print("If " + str(a) + " people split the inheritance, each person would get " + str(x) + " dollars.")
+
+
+# a = int(input("What year is it? "))
+
+# x = a / 100
+# y = int(x) + 1
+# print(y)
+
+
+# number = int(input("Number = "))
+# x = number % 7
+# print(x)
+
+
+# people = int(input("Number of family members = "))
+# oranges = int(input("Number of oranges = "))
+# x = oranges % people
+# print(x)
+
+
+# number = int(input("A number greater than 10 = "))
+# x = number % 100
+# print(x)
+
+
+# number = int(input("Number = "))
+# x = number / 10
+# b = number % 10
+# x = int(x)
+# b = int(b)
+# print(str(x) + " " + str(b))
+
+
+# number = int(input("Number = "))
+# x = number / 10
+# b = number % 10
+# x = int(x)
+# b = int(b)
+# print(str(b) + str(x))
+
+
+# number = int(input("A number greater than 100 = "))
+# b = x / 10
+# b = int(b)
+# print(str(b))
+
+
+# multistring = """This is 
+# a multiline string"""
+# print(multistring)
+
+
+# short_quote = "This is a short quote"
+# long_quote = """This is 
+# a long quote"""
+# print(short_quote)
+# print(long_quote)
+
+
+# journal = """a brief summary of 
+# your day in a multiline string"""
+# print(journal)
+
+# ideas = """a multiline string 
+# about what i hope to develop one day"""
+# print(ideas)
+
+# name1 = "test"
+# name2 = "example"
+# name3 = "name"
+# name4 = "hmmmm"
+# print(name1)
+# print(name2)
+# print(name3)
+# print(name4)
+
+# fruit1 = "plum"
+# fruit2 = "apple"
+# fruit3 = "pear"
+# veggie1 = "carrot"
+# veggie2 = "broccoli"
+# veggie3 = "zuccini"
+# print(fruit1)
+# print(fruit2)
+# print(fruit3)
+# print(veggie1)
+# print(veggie2)
+# print(veggie3)
+
+# string1 = "apple"
+# string2 = "banana"
+# string3 = "water bottle"
+# print(string1.upper())
+# print(string2.lower())
+# print(string3.replace("water","plastic"))
+
+# string = input("This string will include at least one character 1")
+# string = string.replace("1","one")
+# print(string)
+
+# string = input("")
+# print(string.upper())
+
+# message = input()
+# print(message.replace("I","We"))
+
+# text = input()
+# print(text.replace("@",""))
+
+# string1 = "Amazing test string"
+# print(string1[-1])
+
+# string1 = "Amazing test string"
+# print(string1[2:12:2])
+
+# string1 = "Amazing test string"
+# print(string1[:5:-2])
+
+# string = "abcde"
+# string = string[::-1]
+# print(string)
+
+# string1 = "A test string"
+# print(string1.split())
+
+# string1 = "A test string"
+# print(string1.strip())
+# print(len(string1))
+# print(string1.find("t"))
+# print(string1.rfind("t"))
+
+# string1 = "The best string"
+# print(string1[3:5])
+# print(string1.split())
+# print(len(string1))
+# print(string1.find("t"))
+
+# string = input()
+# string = string.split()
+# x = len(string)
+# print(x)
+
+# string = input()
+# a = string.find("e")
+# b = string.rfind("e")
+# print(str(a) + "-" + str(b))
+
+# string = input()
+# a = string[2]
+# b = string[-3]
+# c = string[3]
+# print(a + b + c)
+
+# string = input()
+# a = string.rfind("g")
+# print(a)
+
+# string = input()
+# x = len(string)
+# y = x/2
+# a = string[int(y):]
+# b = string[:int(y)]
+# print(a+b)
+
+# stringname = input()
+# a = stringname.find("j")
+# b = stringname.rfind("j")
+# x = stringname[0:a]
+# y = stringname[b+1:-1]
+# print(str(x)+str(y))
+
+# stringname = input()
+# a = stringname.find("j")
+# b = stringname.rfind("j")
+# x = stringname[a:b+1]
+# print(x[::-1])
+
+# string1 = "I love coding!"
+# check = "coding" in string1
+# check = "coding" not in string1
+# print(check)
+
+# word = "A string variable"
+# check = "string" in word
+# print(check)
+
+# string = input()
+# check = "armadillo" in string
+# print(check)
+
+# string = input()
+# check = "1" in string
+# print(check)
+
+# passage = "Cassowaries, genus Casuarius, are ratites (flightless birds without a keel on their sternum bone) that are native to the tropical forests of New Guinea (Papua New Guinea and Indonesia), East Nusa Tenggara, the Maluku Islands, and northeastern Australia. There are three extant species. The most common of these, the southern cassowary, is the third-tallest and second-heaviest living bird, smaller only than the ostrich and emu. Cassowaries feed mainly on fruit, although all species are truly omnivorous and will take a range of other plant food, including shoots and grass seeds, in addition to fungi, invertebrates, and small vertebrates. Cassowaries are very wary of humans, but if provoked they are capable of inflicting serious, even fatal, injuries to both dogs and people. The cassowary has often been labeled the world's most dangerous bird. Typically, all cassowaries are shy birds that are found in the deep forest. They are adept at disappearing long before a human knows they were there."
+# check = "dangerous" in passage
+# print(check)
+
+# string = "It has been {} days"
+# days = 25
+# print(string.format(days))
+
+# age = 16
+# birthday = "Happy {}th birthday"
+# print(birthday.format(age))
+
+# string = "{} minutes and {} seconds"
+# x = 25
+# y = 10
+# print(string.format(x,y))
+
+# z = input("")
+# a = z[0:1]
+# b = z[1:2]
+# c = z[2:3]
+# x = int(a)+int(b)+int(c)
+# print("The sum of those digits is " + str(x) )
+
+# r = int(input("How many miles can you drive per day?: "))
+# t = int(input("What is the total number of miles to get to your destination?: "))
+# x = t / r
+# print("The total number of days you will need to drive there is " + str(x))
+
+# number = float(input(""))
+# x = number % 1
+# x = str(x)
+# y = x[2:3]
+# print("The first decimal digit is " + y)
+
+# dollars = input("")
+# cents = input("")
+# amount = int(input(""))
+# cost = dollars + "." + cents
+# cost = float(cost)
+# totalcost = cost * amount
+# print("The total cost of " + str(amount) + " cookies is $" + str(totalcost))
+
+# x = int(input(""))
+# x = x + 3
+# y = x % 7
+# print("The day of the week is the number " + str(y))
+
+# candy = ["choclate","lolipop","cottoncandy","gummybear"]
+# pieces = [5,3,2,7]
+# print(candy)
+# print(pieces)
+
+# friends = ["a","b","c"]
+# print(friends)
+
+# reasons = ["a","b","c"]
+# print(reasons)
+
+# ages = [16,19,21,23,48,48]
+# print(ages)
+
+# places = ["Arizona","c","n","y","f"]
+# print(places)
+
+# memories = [0,2,2,1,3]
+# print(memories)
+
+# x = 20
+# y = 15
+# if x == y:
+#     print("They are the same")
+# else:
+#    print("They are not the same")
+
+# number1 = int(input())
+# number2 = int(input())
+# if number1 < number2:
+#     print(number1)
+# else:
+#     print(number2)
+
+# x = int(input())
+# if x >= 0:
+#     print("1")
+# else:
+#     print("-1")
+
+# x = int(input())
+# if 100 <= x < 1000:
+#     print("Yes")
+# else:
+#     print("No")
+
+# x = int(input())
+# y = x % 2
+# if y == 0:
+#     print("Even")
+# else:
+#      print("Odd")
+
+# x = 45
+# y = x % 3
+# if y == 0:
+#     print("Is divisible by three")
+# else:
+#     print("Is not divisible by three")
+
+# height = int(input("Your height in inches: "))
+# if height >= 48:
+#     print("You can ride the roller coaster.")
+# else:
+#     print("You can't ride the roller coaster.")
+
+# number = int(input("A number between 0 and 100"))
+# if number <= 50:
+#     print("Fewer than average")
+# else:
+#     print("More than average")
+
+# x = int(input())
+# y = int(input())
+# c = str(x) + "," + str(y)
+# t = x + y
+# z = t % 2
+# if z == 0:
+#     print("No")
+# else:
+#     print("Yes")
+
+# coins = 10
+# if coins > 20:
+#     print("You have more than enough to buy a puppy")
+# elif coins == 20:
+#     print("You have exactly enough to buy a puppy")
+# else:
+#     print("You do not have enough to buy a puppy")
+
+# number1 = int(input())
+# number2 = int(input())
+# if number1 > number2:
+#     print("The first number is larger.")
+# elif number1 < number2:
+#     print("The second number is larger.")
+# else:
+#     print("The numbers are the same.")
+
+# x = int(input())
+# y = int(input())
+# z = int(input())
+# if x < y and x < z:
+#     print(x)
+# elif y < x and y < z:
+#     print(y)
+# elif z < x and z < y:
+#     print(z)
+# else:
+#     print(x)
+
+# x = int(input())
+# y = int(input())
+# z = int(input())
+# if x == y and x == z:
+#     print(3)
+# elif x == y or x == z or y == z:
+#     print(2)
+# else:
+#     print(0)
+
+# choice = input("Which direction do you go? left,center,right ")
+# if choice == "left":
+#     print("You went left")
+# elif choice == "center":
+#     print("You went center")
+# elif choice == "right":
+#     print("You went right")
+# else:
+#     print("You stayed where you are")
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if a == b:
+#     print(3)
+# elif b == c:
+#     print(1)
+# else:
+#     print(2)
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if a > b and b > c:
+#     print(c,b,a)
+# elif a > b and c > b:
+#     print(b,c,a)
+# elif b > a and a > c:
+#    print(c,a,b)
+# elif b > c and c > a:
+#     print(a,c,b)
+# elif c > a and a > b:
+#    print(b,a,c)
+# else:
+#     print(a,b,c)
+
+# month = int(input())
+# if month == 2:
+#     print(28)
+# elif month == 4 or month == 6 or month == 9 or month == 11:
+#     print(30)
+# else:
+#     print(31)
+
+# x = int(input())
+# y = int(input())
+# t = x + y
+# z = t % 2
+# if z == 0:
+#     a = 1
+# else:
+#     a = 0
+# f = int(input())
+# g = int(input())
+# h = f + g
+# w = h % 2
+# if w == 0:
+#     j = 1
+# else:
+#     j = 0
+# if a == j:
+#     print("Yes")
+# else:
+#     print("No")
+
+# year = int(input())
+# x = year % 4
+# if x == 0:
+#     print("Leap")
+# else:
+#    print("Common")
+
+# x = int(input())
+# y = int(input())
+# for z in range(x,y+1):
+#     print(z)
+
+# number = int(input())
+# t = 1
+# for x in range(1,number+1):
+#     t = t * x
+# print(t)
+
+# animals = ["cow","deer","pig","bear"]
+# for x in animals:
+#     print(x + " is the spikiest animal ever!")
+
+# food = ["a","b","c","d"]
+# for x in food:
+#     if x == "mushrooms":
+#         print(x + " are gross")
+#     elif x == "broccoli":
+#         print(x + " is gross")
+#     elif x == "fish":
+#         print(x + " is gross")
+#     else:
+#         print("Is fine")
+
+# count = 0
+# my_list = [int(n) for n in input("Input a list of numbers").split()]
+# for x in my_list:
+#     if x == 0:
+#         count = count + 1
+#     else:
+#         pass
+# print(count)
+
+# z = ""
+# my_list = [int(n) for n in input().split()]
+# for x in my_list:
+#     y = x % 2
+#     if y == 0:
+#         z = str(z) + str(x) + " "
+#     else:
+#         pass
+# print(z)
+
+# z = ""
+# my_list = input().split()
+# for x in my_list:
+#     if "p" in x or "P" in x:
+#         z = z + x + " "
+#     else:
+#         pass
+# print(z)
+
+# a = 0
+# total = 0
+# z = ""
+# my_list = [int(n) for n in input().split()]
+# for x in my_list:
+#     total = total + x
+#     a = a + 1
+# average = total / a
+# for x in my_list:
+#     if x > average:
+#         z = str(z) + str(x) + " "
+# print(z)
+
+# a = 0   
+# my_list = ["red", "orange", "yellow", "green", "blue", "purple", "black", "white", "gray", "pink", "indigo", "brown", "tan", "gold", "silver"]
+# letter = input("")
+# for x in my_list:
+#     if letter in x:
+#         a = a + 1
+#     else:
+#         pass
+# print("There are " + str(a) + " items in the list that have the letter " + letter + " in it.")
+
+# words = ["create","a","list","that","has"]
+# string = words[2]
+# print(string)
+# print("This is a " + str(string))
+
+# my_list = [int(n) for n in input().split()]
+# number = my_list[4]
+# x = number * 100
+# print(x)
+
+# my_list = input().split()
+# string = my_list[0]
+# string2 = my_list[4]
+# print("Some animals " + str(string) + " and some " + str(string2))
+
+# lasers = [3, 10, 4, 15, 11]
+# pi = 3.14159265
+# print(lasers[2] * 10)
+# print(round(pi,3))
+# for x in range(0,10):
+#     print(x)
+# for x in range(0,10,2):
+#     print(x)
+
+# my_list = [int(n) for n in input().split()]
+# y = 0
+# for x in my_list:
+#     y = y + x
+# print(y)
+
+# my_list = [int(n) for n in input().split()]
+# y = 1
+# for x in my_list:
+#     y = y * x
+# print(y)
+
+# y = 0
+# my_list = ["James", 10, "blue", "Zoe", 8, "red", "Dan", 12, "pink", "Shana", 11, "orange", "Sebastian", 9, "yellow", "Cynthia", 13, "green"]
+# x = input("What do you want to know? ")
+# if x == "name":
+#     y = 0
+# elif x == "age":
+#     y = 1
+# elif x == "favorite color":
+#     y = 2
+# else:
+#     pass
+# new_list = my_list[y::3]
+# print(new_list)
+
+# options = [.20, .30, .40, .50, .60, .70]
+# cost = 29.95
+# number = int(input("Index number = "))
+# people = int(input("Amount of people splitting the cost "))
+# discount = options[number]
+# adiscount = (discount - 1) * -1
+# new_cost = cost * adiscount
+# final_cost = new_cost / people
+# print(round(final_cost,2))
+
+# flowers = ["rose", "tulip", "lilac", "sunflower"]
+# flowers.append("test")
+# my_list = ["test1", "test2"]
+# flowers.extend(my_list)
+# flowers.insert(3, "test3")
+# print(flowers)
+
+# treats = ["popcorn", "popsicles", "soda", "chips", "cookies"]
+# string1 = input("")
+# string2 = input("")
+# my_list = [string1, string2]
+# treats.extend(my_list)
+# print(treats)
+
+# events = ["running", "swimming"]
+# new_events = ["skateboarding", "rockclimbing"]
+# events.extend(new_events)
+# print(events)
+
+# word = input("What is the word? ")
+# my_list = [word]
+# my_list.extend(word)
+# my_list.append(word)
+# print(my_list)
+
+# family = ["Amanda", "Levi", "Nicole", "Lilly"]
+# age = int(input())
+# if age >= 15:
+#     family.insert(0, "Mitch")
+# elif age >= 13:
+#     family.insert(1, "Mitch")
+# elif age >= 10:
+#     family.insert(2, "Mitch")
+# elif age >= 6:
+#     family.insert(3, "Mitch")
+# else:
+#     family.insert(4, "Mitch")
+# print(family)
+
+# other_list = []
+# my_list = [int(n) for n in input().split()]
+# for x in my_list:
+#     if x >= 5:
+#         x = x / 10
+#         other_list.append(x)
+# print(other_list)
+
+# harvest = ["pumpkins", "apples", "corn", "squash", "carrots"]
+# harvest.remove("squash")
+# harvest.pop(1)
+# print(harvest)
+
+# skills = ["Piano", "Soccer", "Coding", "Cooking", "Writing"]
+# skill = input()
+# skills.remove(skill)
+# print(skills)
+
+# my_list = input().split()
+# name = my_list.pop(2)
+# print(name + " got the bronze medal")
+
+# beans = input().split()
+# beans.remove("lima")
+# print(beans)
+
+# my_list = input().split()
+# x = len(my_list)
+# y = x % 2
+# z = x / 2
+# z = int(z)
+# if y == 1:
+#     my_list.pop(z)
+# else:
+#     my_list.pop(z-1)
+#     my_list.pop(z-1)
+# print(my_list)
+
+# my_list = ["1", "2", "3", "4", "5", "6", "7"]
+# print(my_list[0:3])
+# my_list[6] = "8"
+# print(len(my_list))
+
+# my_list = [int(n) for n in input().split()]
+# my_list.sort(reverse=True)
+# print(my_list[0])
+
+# my_list = [int(n) for n in input().split()]
+# y = 10000000000
+# for x in my_list:
+#     if x > y:
+#         print(x)
+#     else:
+#         pass
+#     y = x  
+
+# my_list = [int(n) for n in input().split()]
+# new_list = []
+# for x in my_list:
+#     if x not in new_list:
+#         new_list.append(x)
+#     else:
+#         pass
+# print(len(new_list))
+
+# my_list = [int(n) for n in input().split()]
+# for i in range(0, len(my_list) - 1, 2):
+#     my_list[i], my_list[i + 1] = my_list[i + 1], my_list[i]
+# print(my_list)
+
+# my_list = [int(s) for s in input().split()]
+# counter = 0
+# for i in range(1, len(my_list) - 1):
+# 	if my_list[i-1] < my_list[i] > my_list[i+1]:
+# 		counter += 1
+# print(counter)
+
+# x = 0
+# while x < 100:
+#     x = x + 1
+#     print(x)
+
+# counter = 0
+# number = int(input())
+# while number > 0:
+#     number = int(input())
+#     counter += 1
+# print(counter)
+
+# counter = 0
+# number = int(input())
+# counter = counter + number
+# while number > 0:
+#     number = int(input())
+#     counter += number
+# print(counter)
+
+# numbers = []
+# number = int(input())
+# numbers.append(number)
+# while number > 0:
+#     number = int(input())
+#     numbers.append(number)
+# numbers.sort(reverse=True)
+# print(numbers[0])
+
+# counter2 = 0
+# counter = 0
+# number = int(input())
+# counter = counter + number
+# while number > 0:
+#     number = int(input())
+#     counter += number
+#     counter2 += 1
+# average = counter / counter2
+# print(average)
+
+# counter = 1
+# num1 = int(input("Number of miles you can run on day 1? "))
+# num2 = int(input("Number of miles you will be running on the final day? "))
+# while num1 <= num2:
+#     num1 = num1 * 1.1
+#     counter += 1
+# print(counter)
+
+# x = 0
+# y = 0
+# run = True
+# while x < 5 and y < 5 and x > -5 and y > -5 and run == True:
+#     d = input("Which way do you want to go? ")
+#     if d == "n":
+#         y += 1
+#     elif d == "s":
+#         y -= 1
+#     elif d == "e":
+#         x += 1
+#     elif d == "w":
+#         x -= 1
+#     elif d == "exit":
+#         print("Program exited. You left the grid at (" + str(x) + "," + str(y) + ")")
+#         run = False
+#     else:
+#         print("bad input")
+# print("You left the grid at (" + str(x) + "," + str(y) + ")")
+
+# def race():
+#     print("John won the race")
+# race()
+
+# def charlie():
+#     print("Charlie is great!")
+# charlie()
+
+# def startsequence():
+#     answer = input("Do you want to start the game? ")
+#     if answer == "yes":
+#         print("Initialization Complete")
+#     else:
+#         print("Initialization Failed")
+# startsequence()
+
+# chickens = 5
+# eggs_per_week = 2
+# def farmer():
+#     print(chickens * eggs_per_week)
+# farmer()
+
+# number = int(input())
+# def Hello():
+#     print("Hello" * number)
+# Hello()
+
+# fruit = input()
+# def fruit1():
+#     print(fruit * 3)
+# fruit1()
+
+# length = 5
+# def surface_area():
+#     print(length * length * 6)
+# surface_area()
+# def volume():
+#     print(length * length * length)
+# volume()
+
+# def weather(forecast):
+#     print("It is " + forecast + "!")
+# weather("raining")
+# weather("sunny")
+# weather("foggy")
+
+# fruit = input()
+# def hungry():
+#     print(fruit * 3)
+# hungry()
+
+# month = int(input())
+# def days(month):
+#     if month == 2:
+#         print(28)
+#     elif month == 4 or month == 6 or month == 9 or month == 11:
+#         print(30)
+#     else:
+#         print(31)
+# days(month)
+
+
+# def odd_even(number):
+#     if number % 2 == 0:
+#         print("even")
+#     else:
+#         print("odd")
+# odd_even(1)
+# odd_even(2)
+# odd_even(3)
+
+# word1 = input()
+# def party(word):
+#     if word[0:1] == "C" or word[0:1] == "c":
+#         print(word + " can be a part of the party!")
+#     else:
+#         print("Sorry! " + word + " doesn't start with the letter c!")
+# party(word1)
+
+# year = int(input())
+# def leap(time):
+#     if time % 4 == 0:
+#         print("Leap year!")
+#     else:
+#         print("Not a leap year.")
+# leap(year)
