@@ -921,3 +921,136 @@
 #     area = 3.14159 * value * value
 #     print(round(area, 1))
 # area(radius)
+
+# def test(num1, num2):
+#     print(str(num1) + " is a number")
+#     print(str(num2) + " is a number")
+# test(5,8)
+# test(2,4)
+
+# fruit1 = input()
+# fruit2 = input()
+# fruit3 = input()
+# def fruits(f1, f2 ,f3):
+#     print(f1 + f2 + f3)
+# fruits(fruit1, fruit2, fruit3)
+
+# num1 = int(input())
+# num2 = int(input())
+# def smallest(num1, num2):
+#     if num1 < num2:
+#         print(num1)
+#     elif num1 > num2:
+#         print(num2)
+#     else:
+#         print(str(num1) + " " + str(num2))
+# smallest(num1, num2)
+
+# num1 = int(input())
+# num2 = int(input())
+# num3 = int(input())
+# def equal(num1, num2, num3):
+#     if num1 == num2 and num2 == num3:
+#         print(3)
+#     elif num1 == num2 or num2 == num3 or num1 == num3:
+#         print(2)
+#     else:
+#         print(0)
+# equal(num1, num2, num3)
+
+# num1 = int(input())
+# num2 = int(input())
+# num3 = int(input())
+# num4 = int(input())
+# num5 = int(input())
+# def smallest(num1, num2, num3, num4, num5):
+#     smallest = num1
+#     if num2 < num1:
+#         smallest = num2
+#     if num3 < num2:
+#         smallest = num3
+#     if num4 < num3:
+#         smallest = num4
+#     if num5 < num4:
+#         smallest = num5
+#     print(smallest)
+# smallest(num1, num2, num3, num4, num5)
+
+# num1 = int(input())
+# num2 = int(input())
+# num3 = int(input())
+# def diff(num1, num2, num3):
+#     if num1 == num2:
+#         print(3)
+#     elif num1 == num3:
+#         print(2)
+#     elif num2 == num3:
+#         print(1)
+#     else:
+#         pass
+# diff(num1, num2, num3)
+
+# month = int(input())
+# day = int(input())
+# def tomorrow(month,day):
+#     if month == 1 or month == 3 or month == 5 or month == 7 or month == 8 or month == 10:
+#         if day == 31:
+#             month = month + 1
+#             day = 1
+#         else:
+#             day = day + 1
+#     elif month == 2:
+#         if day == 28:
+#             month = month + 1
+#             day = 1
+#         else:
+#             day = day + 1
+#     elif month == 12:
+#         if day == 31:
+#             month = 1
+#             day = 1
+#         else:
+#             day = day + 1
+#     else:
+#         if day == 30:
+#             month = month + 1
+#             day = 1
+#         else:
+#             day =day + 1
+#     print(str(month) + " " + str(day))
+# tomorrow(month, day)
+
+# mountains = {
+#     "Timpanogos" : 3,
+#     "Everest" : 1,
+#     "Kilimanjaro" : 2,
+#     "Vesuvius" : 4
+# }
+# print(mountains)
+# print(mountains["Vesuvius"])
+# mountains["Kilimanjaro"] = 5
+
+# dictionary = {
+#     "one" : 1,
+#     "two" : 2,
+#     "three" : 3,
+#     "four" : 4,
+#     "five" : 5,
+#     "six" : 6,
+#     "seven" : 7,
+#     "eight" : 8,
+#     "nine" : 9,
+#     "ten" : 10,
+# }
+# print(dictionary)
+
+# dictionary = {
+#     "one" : 1,
+#     "two" : 2,
+#     "three" : 3,
+#     "four" : 4,
+#     "five" : 5
+# }
+# my_list = ["one", "two", "three", "four", "five"]
+# print(dictionary)
+# print(my_list)
