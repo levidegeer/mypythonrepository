@@ -1054,3 +1054,119 @@
 # my_list = ["one", "two", "three", "four", "five"]
 # print(dictionary)
 # print(my_list)
+
+# knife = int(input("From 1-10, how important is a knife?"))
+# fire_starter = int(input("From 1-10, how important is a fire starter?"))
+# pot = int(input("From 1-10, how important is a pot?"))
+# rope = int(input("From 1-10, how important is a rope?"))
+# tarp = int(input("From 1-10, how important is a tarp?"))
+# survive = { "knife" : knife, "fire starter": fire_starter, "pot": pot, "rope": rope, "tarp": tarp}
+# print(survive)
+
+# colors = {
+# "red" : 1,
+# "blue" : 2,
+# "orange" : 3,
+# "purple" : 4,
+# "yellow" : 5
+# }
+# print(colors["orange"])
+# print(colors["purple"])
+# colors["red"] = 6
+# colors["blue"] = 7
+# print(colors)
+
+# pets = {
+# "fish" : 30,
+# "dogs" : 2,
+# "chickens" : 5,
+# "cats" : 2,
+# "bunny" : 1
+# }
+# pets["fish"] = 20
+# pets["bunny"] = 7
+# print("Because 10 fish died, and the bunny had 6 babies, you now have " + str(pets["fish"]) + " and " + str(pets["bunny"]) + " at your house.")
+# print(pets)
+
+# friends = { "Shane" : 10, "Samantha" : 9, "Shiloh" : 12, "Sean" : 11 }
+# friends["Sebastian"] = 8
+# friends.pop("Shiloh")
+# print(friends)
+
+# shape = input()
+# height = int(input())
+# shapes = {
+# "Triangle": 8,
+# "Circle": 15,
+# "Square": 10,
+# "Rectangle" : 12
+# }
+# shapes[shape] = height
+# print(shapes)
+
+# tree = input("What tree do you want to remove.")
+# trees = { "aspen" : 75, "pine" : 82, "maple" : 60, "oak" : 65, "willow" : 80, "cottonwood" : 100 }
+# trees.pop(tree)
+# print(trees)
+
+# goal = input("What goal do you want to remove.")
+# goals = { "piano" : 5, "run" : 3, "paint" : 2, "serve" : 7, "homework" : 7}
+# goals.pop(goal)
+# print(goals)
+
+# new_dino = input("What dino do you want to add?")
+# dino_height = int(input("How tall is your dinosaur?"))
+# dinosaur = {}
+# dinosaur[new_dino] = dino_height
+# while new_dino != "triceratops":
+#     new_dino = input("What dino do you want to add?")
+#     dino_height = int(input("How tall is your dinosaur?"))
+#     dinosaur[new_dino] = dino_height
+# print(dinosaur)
+
+# def problem(a):
+#     if isinstance(a, str):
+#         print("error")
+#     else:
+#         print(a)
+# problem("test")
+
+# coins = {"pennies" : 2,
+# "nickels" : 1,
+# "dimes" : 5,
+# "quarters" : 3}
+# coins.pop("pennies")
+# coins["silver_dollar"] = 7
+# print(coins)
+# print(len(coins))
+
+# test1 = input()
+# test2 = input()
+# test3 = input()
+# dictionary = { 1: "bicycle", 2: "soccer balls", 3: "piano books" }
+# dictionary[4] = test1
+# dictionary[5] = test2
+# dictionary[6] = test3
+# print(dictionary)
+
+# work = {
+# "Monday" : 2,
+# "Tuesday" : 2,
+# "Wednesday" : 2,
+# "Thursday" : 2,
+# "Friday" : 2
+# }
+# work["Saturday"] = 4
+# work.pop("Wednesday")
+# print(len(work))
+# if "Friday" in work:
+#     print(True)
+
+# my_list = [str(n) for n in input().split()]
+# times_seen = {}
+# for x in my_list:
+#     if x not in times_seen:
+#         times_seen[x] = 1
+#     else:
+#         times_seen[x] += 1
+#     print(times_seen[x])
