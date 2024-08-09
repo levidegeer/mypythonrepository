@@ -1170,3 +1170,159 @@
 #     else:
 #         times_seen[x] += 1
 #     print(times_seen[x])
+
+# have = {
+# "apples" : 5,
+# "bananas" : 7,
+# "strawberries" : 3
+# }
+# shopping = {}
+# apples = int(input())
+# bananas = int(input())
+# strawberries = int(input())
+# if apples > have["apples"]:
+#     shopping["apples"] = apples - have["apples"]
+# else:
+#     pass
+# if bananas > have["bananas"]:
+#     shopping["bananas"] = bananas - have["bananas"]
+# else:
+#     pass
+# if strawberries > have["strawberries"]:
+#     shopping["strawberries"] = strawberries - have["strawberries"]
+# else:
+#     pass
+# print(shopping)
+
+# permission = [str(n) for n in input("Input a list of names separated by spaces").split()]
+# state = dict.fromkeys(permission, "yes")
+# print(state)
+
+# measurement = {
+# "length" : 15,
+# "width" : 5,
+# "depth" : 3
+# }
+# for x in measurement.values():
+#     print(x)
+
+# amount = 0
+# group = { "Fred" : 12, "Jackson" : 15, "Sophie" : 20, "Amanda" : 0, "Jane" : 0 }
+# amanda = int(input())
+# jane = int(input())
+# group["Amanda"] = amanda
+# group["Jane"] = jane
+# for x in group.values():
+#     amount = amount + x
+# print(amount)
+
+# product = 0
+# key1 = int(input())
+# val1 = int(input())
+# group = { 3 : 10, 5 : 3, 10 : 6, 4 : 30, key1 : val1 }
+# for x,y in group.items():
+#     product = product + (x * y)
+# print(product)
+
+# total = 0
+# val1 = int(input())
+# group = { "box1" : 5, "box2" : 2, "box3" : 10, "box4" : 3, "box5" : val1 }
+# for x in group.values():
+#     total = total + (x * 25)
+# print(total)
+
+# key1 = input()
+# val1 = int(input())
+# group = { "Sally" : 10, "Cameron" : 3, "Spencer" : 6, key1 : val1 }
+# for x,y in group.items():
+#     print(x + " has " + str(y) + " pairs of shoes.")
+
+# name = input()
+# group = { 4: "Jared", 5: "McKann", 6: "Kyle", 7: "Summer", 8: name, }
+# for x,y in group.items():
+#     group[x] = y + " Nelson"
+# print(group)
+
+# ride = {
+# "name1" : 78,
+# "name2" : 160,
+# "name3" : 89,
+# "name4" : 156,
+# "name5" : 210
+# }
+# for x in ride.values():
+#     if x >= 100:
+#         print("This person is tall enough to ride.")
+#     else:
+#         print("This person is too short to ride.")
+
+# my_list = [int(n) for n in input().split()]
+# dictionary = { 7: "first", 3: "second", 4: "third", 8: "fourth", 9: "fifth" }
+# for x in my_list:
+#     if x == 7 or x == 3 or x == 4 or x == 8 or x == 9:
+#         print("Yes")
+#     else:
+#         print("No")
+
+# largest = 0
+# y = 0
+# dictionary = {}
+# words = input("Create a list of words").split()
+# for x in words:
+#     if x not in dictionary:
+#         dictionary[x] = 0
+#     dictionary[x] += 1
+# for x, y in dictionary.items():
+#     if y >= largest:
+#         largest = y
+#         word = x
+# print(word)
+
+# def dna_to_rna(dna):
+#     return(dna.replace("T", "U"))
+
+# dictionary = {}
+# amount = int(input())
+# for x in range(amount):
+#     dictionary[x] = x * x
+# print(dictionary)
+
+# dictionary = {}
+# amount = int(input())
+# for x in range(amount):
+#     a = input("input1 ")
+#     b = input("input2 ")
+#     dictionary[a] = b
+#     dictionary[b] = a
+# print(dictionary[input("Which word do you want the synonym for? ")])
+
+# dictionary = {}
+# loops = int(input())
+# for x in range(loops):
+#     a = input("Name")
+#     b = int(input("Votes"))
+#     if a not in dictionary:
+#         dictionary[a] = b
+#     else:
+#         dictionary[a] += b
+# print(dictionary)
+
+# grades = (95, 70, 85, 92, 100)
+# print(grades)
+# print(grades[-2])
+# print(grades[0:3])
+
+# friends = (3, 5, 7, 8, 10, 2, 12, 4)
+# x = int(input())
+# if x in friends:
+#     print("Yes")
+# else:
+#     print("No")
+
+# strings = ("1","2","3","4","5","6","7","8")
+# print(strings[-3])
+# print(strings[5])
+# print(strings[0:4])
+
+# candies = (3, 5, 7, 8, 10, 2, 50, 4, 29, 14)
+# print(candies[-4:-1])
