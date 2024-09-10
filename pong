@@ -1,0 +1,100 @@
+import time
+import pygame
+pygame.init()
+
+screen_width = 1000
+screen_height = 800
+BROWN = (182, 136, 84)
+BLACK = (0, 0, 0)
+RED = (255, 0, 0)
+BLUE = (0, 0, 255)
+GREEN = (0, 255, 0)
+YELLOW = (248, 229, 22)
+
+screen = pygame.display.set_mode((screen_width, screen_height))
+pygame.display.set_caption("Tank Game")
+clock = pygame.time.Clock()
+font = pygame.font.SysFont("cambria", 25)
+
+
+def draw_text(text1, font, color, x, y):
+    text2 = font.render(text1, True, color)
+    screen.blit(text2, (x, y))
+
+
+ball_x = 500
+ball_y = 400
+ball_x_move = 3
+ball_y_move = 2
+left_paddle_y = 400
+right_paddle_y = 400
+player1_score = 0
+player2_score = 0
+tick_rate = 60
+c = 0
+
+run = True
+while run:
+    pygame.draw.rect(screen, RED, [0, 50, 1000, 25])
+    pygame.draw.rect(screen, RED, [0, 725, 1000, 25])
+    pygame.draw.rect(screen, BLUE, [ball_x, ball_y, 12, 12])
+    pygame.draw.rect(screen, GREEN, [75, left_paddle_y, 15, 50])
+    pygame.draw.rect(screen, YELLOW, [925, right_paddle_y, 15, 50])
+    draw_text("Player1 : " + str(round(player1_score)), font, GREEN, 10, 10)
+    draw_text("Player2 : " + str(round(player2_score)), font, YELLOW, 875, 10)
+
+    ball_x = ball_x + ball_x_move
+    ball_y = ball_y + ball_y_move
+
+    if ball_x > 988:
+        player1_score = player1_score + 1
+        ball_x = 500
+        ball_y = 400
+        ball_x_move = ball_x_move * -1
+    elif ball_x < 0:
+        player2_score = player2_score + 1
+        ball_x = 500
+        ball_y = 400
+        ball_x_move = ball_x_move * -1
+
+    if player1_score == 10:
+        draw_text("Player1 Wins!", font, GREEN, 450, 400)
+    elif player2_score == 10:
+        draw_text("Player2 Wins!", font, YELLOW, 450, 400)
+
+    if ball_y > 712 or ball_y < 75:
+        ball_y_move = ball_y_move * -1
+    if left_paddle_y - 25 <= ball_y <= left_paddle_y + 25 and 75 <= ball_x <= 90:
+        ball_x_move = ball_x_move * -1
+    if right_paddle_y - 25 <= ball_y <= right_paddle_y + 25 and 925 >= ball_x >= 910:
+        ball_x_move = ball_x_move * -1
+
+    # paddle movement
+    key = pygame.key.get_pressed()
+    if key[pygame.K_w]:
+        if left_paddle_y > 75:
+            left_paddle_y = left_paddle_y - 5
+    if key[pygame.K_s]:
+        if left_paddle_y < 675:
+            left_paddle_y = left_paddle_y + 5
+    if key[pygame.K_i]:
+        if right_paddle_y > 75:
+            right_paddle_y = right_paddle_y - 5
+    if key[pygame.K_k]:
+        if right_paddle_y < 675:
+            right_paddle_y = right_paddle_y + 5
+
+    if player1_score >= 10 or player2_score >= 10:
+        c = c + 1
+        if c >= 2:
+            time.sleep(10)
+            run = False
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            run = False
+    pygame.display.flip()
+    screen.fill(BLACK)
+    clock.tick(tick_rate)
+
+pygame.quit()
