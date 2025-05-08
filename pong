@@ -65,9 +65,9 @@ while run:
     if ball_y > 712 or ball_y < 75:
         ball_y_move = ball_y_move * -1
     if left_paddle_y - 12 <= ball_y <= left_paddle_y + 50 and 75 <= ball_x <= 90:
-        ball_x_move = ball_x_move * -1
+        ball_x_move = ball_x_move * -1.03
     if right_paddle_y - 12 <= ball_y <= right_paddle_y + 50 and 925 >= ball_x >= 910:
-        ball_x_move = ball_x_move * -1
+        ball_x_move = ball_x_move * -1.03
 
     # paddle movement
     key = pygame.key.get_pressed()
